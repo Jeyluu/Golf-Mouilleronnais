@@ -1,0 +1,95 @@
+/* document information 
+- Document Liberty Golf
+- version : 1.0.0
+- Auteur : Jérémy
+*/
+
+/* Colors
+- Défaut body text : #242424
+
+-h1                  #000                   
+-h2                  #000
+-h3                  #000
+
+-button
+
+
+*/
+
+/* FONTS
+-Defaut : Raleway
+-Title : Cinzel
+
+*/
+
+/* Css directory
+
+1.=GLOBAL
+2.=HEADER
+3.=ACTUALITÉES
+4.=FOOTER
+
+*/
+/* --------------------------------------------GLOBAL--------------------------------------------*/
+
+html {
+    background-color: #fff;
+}
+
+h1, h2, h3 {
+    color:#000;
+    font-family: 'Cinzel', serif;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 20px;
+    
+}
+
+h3 {
+    font-size: 20px;
+
+}
+
+h3:after {
+    display: block;
+    height: 2px;
+    background-color: rgb(65, 60, 48);
+    width: 50%;
+    margin: 0 auto;
+    content: " ";
+    
+}
+
+p {
+    color: #242424;
+    font-family: 'Raleway', sans-serif ;
+}
+
+/* --------------------------------------------NAVBAR--------------------------------------------*/
+.navbar {
+    font-size: 20px;
+    background-color: rgba(102,51,0, 0.7) !important;
+    
+
+}
+.navbar a {
+    color: rgb(0, 0, 0) !important;
+}
+.navbar-nav a:hover {
+    color: #fff !important;
+    transition: 1s !important;
+}
+.navbar-brand {
+    font-size: 40px;
+    letter-spacing: -7px;
+    font-family: 'Cinzel', serif;
+    border-right: 1px ridge #000;
+}
+.navbar-brand span {
+    letter-spacing: normal;
+    margin-right: 10px;
+}
+.navbar-brand img {
+    height: 50px;
+    position: relative;
+}
