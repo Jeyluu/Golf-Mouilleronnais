@@ -1,0 +1,209 @@
+/* document information 
+- Document Liberty Golf
+- version : 1.0.0
+- Auteur : Jérémy
+*/
+
+/* Colors
+- Défaut body text : #242424
+
+-h1                  #000                   
+-h2                  #000
+-h3                  #000
+
+-button
+
+
+*/
+
+/* FONTS
+-Defaut : Raleway
+-Title : Cinzel
+
+*/
+
+/* Css directory
+
+1.=GLOBAL
+2.=HEADER
+3.=ACTUALITÉES
+4.=FOOTER
+
+*/
+
+/* --------------------------------------------GLOBAL--------------------------------------------*/
+html {
+    background-color: #fff;
+}
+
+h1, h2, h3, h4 {
+    color:#000;
+    font-family: 'Cinzel', serif;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 20px;
+    
+}
+
+h3 {
+    font-size: 20px;
+
+}
+
+h3:after {
+    display: block;
+    height: 2px;
+    background-color: rgb(65, 60, 48);
+    width: 50%;
+    margin: 0 auto;
+    content: " ";
+    
+}
+
+p {
+    color: #242424;
+    font-family: 'Raleway', sans-serif ;
+}
+
+
+/* --------------------------------------------HEADER--------------------------------------------*/
+header {
+    background-image: url(../Images/offres.jpg);
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.hd-img {
+    margin-top: 10%;
+}
+/* --------------------------------------------NAVBAR--------------------------------------------*/
+.navbar {
+    font-size: 20px;
+    background-color: rgba(102,51,0, 0.7) !important;
+    
+
+}
+.navbar a {
+    color: rgb(0, 0, 0) !important;
+}
+.navbar-nav a:hover {
+    color: #fff !important;
+    transition: 1s !important;
+}
+.navbar-brand {
+    font-size: 40px;
+    letter-spacing: -7px;
+    font-family: 'Cinzel', serif;
+    border-right: 1px ridge #000;
+}
+.navbar-brand span {
+    letter-spacing: normal;
+    margin-right: 10px;
+}
+.navbar-brand img {
+    height: 50px;
+    position: relative;
+}
+/* --------------------------------------------OFFRES--------------------------------------------*/
+
+/* ------------------GREENFEES------------------*/
+caption {
+    font-size: 12px;
+    text-align: center;
+    font-style: italic;
+    border-bottom: 5px solid #000;
+    margin-bottom: 50px
+    
+}
+
+table {
+
+    text-align: center;
+    
+}
+
+/* ------------------FORMULES ENSEIGNEMENTS------------------*/
+.formule {
+    /* Mettre plus d'espace entre les block formule? */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
+    margin-top: 20px;
+    border-radius: 20px;
+    margin-right: 50px;
+    padding: 5px;
+    
+    
+}
+.formule-title {
+    background-color: rgba(49, 66, 52, 0.582);
+    border-bottom: 5px #242424 solid;
+    border-radius: 20px;
+    position: relative;
+}
+
+.formule-title span {
+    font-size: 50%;
+    position: absolute;
+}
+h4 {
+    margin-top: -20px;
+}
+
+ul{
+    padding-top: 10px;
+}
+li {
+    padding-bottom: 10px;
+    list-style-type: none;
+}
+.formule-content ul li i {
+    margin-right: 10px;
+}
+.formule-signup {
+    
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 40px;
+    
+}
+
+.formule-btn {
+    color: #ff0000;
+    border-radius: 10px;
+    padding: 10px;
+    /* mon border-color: #000 ne prend pas je ne sais pas pourquoi voir avec Adeline */
+}
+
+.formule-btn:hover {
+
+    color: #fff;
+    background-color: #242424;
+    text-decoration: none;
+    font-size: 25px;
+    transition: 0.5s;
+    
+}
+
+
+/* --------------------------------------------FOOTER--------------------------------------------*/
+
+footer {
+    height: 220px;
+    background-image: url(../Images/footer.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: top;
+    background-attachment: fixed;
+}
+
+.icons img {
+    width: 80px;
+    margin-left: 20%;
+}
+
+.mention {
+    text-align: end;
+    margin-top: 25px;
+    margin-right: 5px;
+}
