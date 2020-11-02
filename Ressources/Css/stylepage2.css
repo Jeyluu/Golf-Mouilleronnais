@@ -93,3 +93,48 @@ p {
     height: 50px;
     position: relative;
 }
+/* --------------------------------------------HEADER--------------------------------------------*/
+header {
+    background-image: url(../Images/headerp2.jpg);
+    height: 50vh;
+    background-position: center;
+    
+}
+
+.pres-head {
+    margin-top: 10%;
+}
+/* --------------------------------------------PRESENTATION--------------------------------------------*/
+
+.directrice-img img {
+    
+    width: 50%;
+    margin: 20px;
+    border-radius: 100px ;
+}
+
+.pres-txt span {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+/* --------------------------------------------FOOTER--------------------------------------------*/
+
+footer {
+    height: 220px;
+    background-image: url(../Images/footer.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: top;
+    background-attachment: fixed;
+}
+
+.icons img {
+    width: 80px;
+    margin-left: 20%;
+}
+
+.mention {
+    text-align: end;
+    margin-top: 25px;
+    margin-right: 5px;
+}
