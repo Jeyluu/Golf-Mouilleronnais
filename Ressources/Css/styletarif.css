@@ -188,6 +188,8 @@ li {
 
 /* --------------------------------------------FOOTER--------------------------------------------*/
 
+/* --------------------------------------------FOOTER--------------------------------------------*/
+
 footer {
     height: 220px;
     background-image: url(../Images/footer.jpg);
@@ -195,15 +197,17 @@ footer {
     background-size:cover;
     background-position: top;
     background-attachment: fixed;
+    
 }
 
 .icons img {
-    width: 80px;
+    width: 50px;
     margin-left: 20%;
+    display: inline-block;
 }
 
 .mention {
     text-align: end;
-    margin-top: 25px;
+    margin-top: 50px;
     margin-right: 5px;
 }

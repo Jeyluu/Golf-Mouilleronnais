@@ -1,0 +1,202 @@
+/* document information 
+- Document Liberty Golf
+- version : 1.0.0
+- Auteur : Jérémy
+*/
+
+/* Colors
+- Défaut body text : #242424
+
+-h1                  #000                   
+-h2                  #000
+-h3                  #000
+
+-button
+
+
+*/
+
+/* FONTS
+-Defaut : Raleway
+-Title : Cinzel
+
+*/
+
+/* Css directory
+
+1.=GLOBAL
+2.=HEADER
+3.=ACTUALITÉES
+4.=FOOTER
+
+*/
+
+/* --------------------------------------------GLOBAL--------------------------------------------*/
+
+html {
+    background-color: #fff;
+}
+
+h1, h2, h3, h4{
+    color:#000;
+    font-family: 'Cinzel', serif;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 20px;
+    
+}
+
+
+h3 {
+    font-size: 20px;
+
+}
+
+h3:after {
+    display: block;
+    height: 2px;
+    background-color: rgb(65, 60, 48);
+    width: 50%;
+    margin: 0 auto;
+    content: " ";
+    
+}
+h4 {
+    font-size: 15px ;
+}
+
+
+
+p {
+    color: #242424;
+    font-family: 'Raleway', sans-serif ;
+}
+
+
+/* --------------------------------------------HEADER--------------------------------------------*/
+header {
+
+    background-image: url(../Images/headerproshop.jpg);
+    background-position: center;
+    background-size: cover;
+    
+    height: 50vh;
+}
+.head-txt {
+    display: block;
+    padding-top: 210px;
+}
+
+
+
+/* --------------------------------------------NAVBAR--------------------------------------------*/
+.navbar {
+    font-size: 20px;
+    background-color: rgba(102,51,0, 0.7) !important;
+    
+}
+.navbar a {
+    color: rgb(0, 0, 0) !important;
+}
+.navbar-nav a:hover {
+    color: #fff !important;
+    transition: 1s !important;
+}
+.navbar-brand {
+    font-size: 40px;
+    letter-spacing: -7px;
+    font-family: 'Cinzel', serif;
+    border-right: 1px ridge #000;
+}
+.navbar-brand span {
+    letter-spacing: normal;
+    margin-right: 10px;
+}
+.navbar-brand img {
+    height: 50px;
+    position: relative;
+}
+
+/* --------------------------------------------LESPRODUITS--------------------------------------------*/
+
+/* ---------------------------PROMO-------------------------------*/
+
+.promo-img {
+    background-image: url(../Images/promo1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+    border-radius: 10px;
+    
+}
+.promo-descr {
+    
+    
+    border: 1px #ddd2d2 solid;
+    border-radius: 10px;
+    
+}
+
+.promo-cadre {
+    margin-bottom: 20px;
+}
+p {
+    font-size: 15px;
+    padding-left: 20px;
+}
+
+.btn-ps {
+    margin-top: 150px;
+    margin-left: 200px;
+    padding: 0 40px;
+    border: 0;
+    line-height: 2.5;
+    text-shadow: 1px 1px 1px #242424;
+    color: #fff;
+    background-color: rgb(177, 2, 2);
+    border-radius: 10px;
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+    
+}
+
+.btn-ps:hover {
+    background-color: rgba(260, 0, 0,0.6);
+}
+
+.btn-ps a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#shop {
+    margin-bottom: 40px;
+}
+
+/* ---------------------------EQUIPEMENT ET AUTRES-------------------------------*/
+.shopp2 {
+    border-top: 5px #000 solid;
+}
+/* --------------------------------------------FOOTER--------------------------------------------*/
+
+footer {
+    height: 220px;
+    background-image: url(../Images/footer.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: top;
+    background-attachment: fixed;
+    
+}
+
+.icons img {
+    width: 50px;
+    margin-left: 20%;
+    display: inline-block;
+}
+
+.mention {
+    text-align: end;
+    margin-top: 50px;
+    margin-right: 5px;
+}
