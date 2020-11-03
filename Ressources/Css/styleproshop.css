@@ -187,6 +187,9 @@ ul li{
     width: 100%;
     margin-top: 40px;
     border-radius: 10px;
+    border: 2px #ddd2d2 solid;
+    border-radius: 10px;
+    margin-bottom: 20px;
     
 }
 
@@ -194,18 +197,27 @@ ul li{
     width: 100%;
     margin-top: 40px;
     border-radius: 10px;
+    border: 2px #ddd2d2 solid;
+    border-radius: 10px;
+    margin-bottom: 20px;
 }
 
 .img-club-sw img {
     width: 100%;
     margin-top: 40px;
     border-radius: 10px;
+    border: 2px #ddd2d2 solid;
+    border-radius: 10px;
+    margin-bottom: 20px;
 }
 
 .img-club-sac img {
     width: 100%;
     margin-top: 40px;
     border-radius: 10px;
+    border: 2px #ddd2d2 solid;
+    border-radius: 10px;
+    margin-bottom: 20px;
 }
 
 .btn-ps1 {
