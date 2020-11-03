@@ -175,7 +175,16 @@ p {
 
 /* ---------------------------EQUIPEMENT ET AUTRES-------------------------------*/
 .shopp2 {
-    border-top: 5px #000 solid;
+    border-top: 5px solid #000;
+}
+
+ul li{
+    list-style-type: none;
+}
+
+.img-ping {
+    background-image: url(../Images/putterping.jpg);
+    background-color: #000;
 }
 /* --------------------------------------------FOOTER--------------------------------------------*/
 
