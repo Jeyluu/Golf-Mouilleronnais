@@ -205,7 +205,183 @@ footer {
     margin-right: 5px;
 }
 
+/* -------------------------------------------------------------------------------ONGLET QUISOMMESNOUS-------------------------------------------------------------------------------*/
+/* --------------------------------------------HEADER--------------------------------------------*/
+#hd-qsn {
+    background-image: url(../Images/headerp2.jpg);
+    height: 50vh;
+    background-position: center;
+    
+}
 
+.pres-head {
+    margin-top: 10%;
+}
+/* --------------------------------------------PRESENTATION--------------------------------------------*/
+
+.directrice-img img {
+    
+    width: 50%;
+    margin: 20px;
+    border-radius: 100px ;
+}
+
+.pres-txt span {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* -------------------------------------------------------------------------------ONGLET TARIFS-------------------------------------------------------------------------------*/
+
+
+
+/* -------------------------------------------------------------------------------ONGLET PROSHOP-------------------------------------------------------------------------------*/
+/* --------------------------------------------HEADER--------------------------------------------*/
+#hd-proshop {
+
+    background-image: url(../Images/headerproshop.jpg);
+    background-position: center;
+    background-size: cover;
+    
+    height: 50vh;
+}
+.head-txt {
+    display: block;
+    padding-top: 210px;
+}
+/* --------------------------------------------LESPRODUITS--------------------------------------------*/
+
+/* ---------------------------PROMO-------------------------------*/
+
+.promo-img {
+    background-image: url(../Images/promo1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+    border-radius: 10px;
+    
+}
+.promo-descr {
+    
+    
+    border: 1px #ddd2d2 solid;
+    border-radius: 10px;
+    
+}
+
+.promo-cadre {
+    margin-bottom: 20px;
+}
+p {
+    font-size: 15px;
+    padding-left: 20px;
+}
+
+.btn-ps {
+    margin-top: 150px;
+    margin-left: 200px;
+    padding: 0 40px;
+    border: 0;
+    line-height: 2.5;
+    text-shadow: 1px 1px 1px #242424;
+    color: #fff;
+    background-color: rgb(177, 2, 2);
+    border-radius: 10px;
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+    
+}
+
+.btn-ps:hover {
+    background-color: rgba(260, 0, 0,0.6);
+}
+
+.btn-ps a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#shop {
+    margin-bottom: 40px;
+}
+
+/* ---------------------------EQUIPEMENT ET AUTRES-------------------------------*/
+.shopp2 {
+    border-top: 5px solid #000;
+}
+
+ul li{
+    list-style-type: none;
+}
+
+.img-ping img {
+
+    width: 100%;
+    margin-top: 40px;
+    border-radius: 10px;
+    border: 2px #ddd2d2 solid;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    
+}
+
+.img-club-drive img {
+    width: 100%;
+    margin-top: 40px;
+    border-radius: 10px;
+    border: 2px #ddd2d2 solid;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.img-club-sw img {
+    width: 100%;
+    margin-top: 40px;
+    border-radius: 10px;
+    border: 2px #ddd2d2 solid;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.img-club-sac img {
+    width: 100%;
+    margin-top: 40px;
+    border-radius: 10px;
+    border: 2px #ddd2d2 solid;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.btn-ps1 {
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+    padding: 0 40px;
+    border: 0;
+    line-height: 2.5;
+    text-shadow: 1px 1px 1px #242424;
+    color: #fff;
+    background-color: rgb(177, 2, 2);
+    border-radius: 10px;
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+    
+}
+
+.btn-ps1:hover {
+    background-color: rgba(260, 0, 0,0.6);
+}
+
+.btn-ps1 a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.border {
+    border: 2px #ddd2d2 solid;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
 
 
 /* -------------------------------------------------------------------------------ONGLET CONTACT-------------------------------------------------------------------------------*/

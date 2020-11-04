@@ -94,7 +94,7 @@ p {
     position: relative;
 }
 /* --------------------------------------------HEADER--------------------------------------------*/
-header {
+#hd-qsn {
     background-image: url(../Images/headerp2.jpg);
     height: 50vh;
     background-position: center;
