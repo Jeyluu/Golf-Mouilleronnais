@@ -212,11 +212,16 @@ footer {
 
 #contact {
 
-    text-align: center;
+    
     background-image: url(../Images/contact.jpg);
     background-size: cover;
-    height: 100vh;
+    background-position: bottom;
+    height: 50vh;
     
+}
+
+.head-contact {
+    margin-top: 160px ;
 }
 
 #formulaire-contact {
@@ -225,9 +230,17 @@ footer {
 
 #title-contact-message {
     margin-top: 20px;
+    
 }
 
+.contact-form {
+    margin-top:40px;
+}
 
 .map {
     margin-top:40px
+}
+
+.contact-message {
+    width: 100%;
 }
