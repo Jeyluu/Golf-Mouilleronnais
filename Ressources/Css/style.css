@@ -61,9 +61,14 @@ h3:after {
     
 }
 
+h4 {
+    font-size: 15px ;
+}
+
 p {
     color: #242424;
     font-family: 'Raleway', sans-serif ;
+    text-align: center;
 }
 
 
@@ -73,13 +78,14 @@ p {
     background-image: url(../Images/header.jpg);
     height: 100vh;
     background-size: cover;
+    max-width: 100%;
     
 }
 
 .main-title h1 {
     letter-spacing: -15px;
     font-size: 70px;
-    margin: 20%;
+    margin: 10%;
 }
 
 .main-title h1 span {
@@ -87,9 +93,12 @@ p {
 }
 
 .main-title p {
-    margin: -20%;
+    margin: -5%;
 }
 
+.main-title a {
+    margin-top: 10%;
+}
 .main-title img {
     height: 90px;
     margin-left: 20px;
@@ -97,10 +106,12 @@ p {
     margin-right: -20px;
 }
 /* --------------------------------------------NAVBAR--------------------------------------------*/
+
 .navbar {
     font-size: 20px;
     background-color: rgba(102,51,0, 0.7) !important;
-    
+    font-family: 'Raleway', sans-serif ;
+    font-size: 25px;
 
 }
 .navbar a {
@@ -142,8 +153,11 @@ p {
 }
 
 .btn-header {
+
+    
     font-family: 'Cinzel', serif;
-    margin-top: 500px;
+    margin-top: 250px;
+    
     
     }
 
@@ -183,6 +197,7 @@ p {
 
 
 footer {
+    margin-top: 20px;
     height: 220px;
     background-image: url(../Images/footer.jpg);
     background-repeat: no-repeat;
@@ -206,7 +221,7 @@ footer {
 }
 
 /* -------------------------------------------------------------------------------ONGLET QUISOMMESNOUS-------------------------------------------------------------------------------*/
-/* --------------------------------------------HEADER--------------------------------------------*/
+                                            /* --------------------------------------------HEADER--------------------------------------------*/
 #hd-qsn {
     background-image: url(../Images/headerp2.jpg);
     height: 50vh;
@@ -217,13 +232,15 @@ footer {
 .pres-head {
     margin-top: 10%;
 }
-/* --------------------------------------------PRESENTATION--------------------------------------------*/
+                                            /* --------------------------------------------PRESENTATION--------------------------------------------*/
 
 .directrice-img img {
     
+    display: block;
     width: 50%;
-    margin: 20px;
+    margin:10px auto;
     border-radius: 100px ;
+    max-width: 100%;
 }
 
 .pres-txt span {
@@ -233,156 +250,99 @@ footer {
 
 /* -------------------------------------------------------------------------------ONGLET TARIFS-------------------------------------------------------------------------------*/
 
+                                            /* --------------------------------------------HEADER--------------------------------------------*/
+#hd-tarif {
+    background-image: url(../Images/offres.jpg);
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.hd-img {
+    margin-top: 10%;
+}
+
+                                            /* --------------------------------------------GREENFEES--------------------------------------------*/
+caption {
+    font-size: 12px;
+    text-align: center;
+    font-style: italic;
+    border-bottom: 5px solid #000;
+    margin-bottom: 50px
+    
+}
+
+table {
+
+    text-align: center;
+    
+}
+
+                                            /* --------------------------------------------FORMULES ENSEIGNEMENTS--------------------------------------------*/
+.formule {
+    /* Mettre plus d'espace entre les block formule? */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
+    border-radius: 20px;
+    margin-right: 20px 50px;
+    padding: 5px;
+
+}
+.formule-title {
+    background-color: rgba(49, 66, 52, 0.582);
+    border-bottom: 5px #242424 solid;
+    border-radius: 20px;
+    position: relative;
+}
+
+.formule-title span {
+    font-size: 50%;
+    position: absolute;
+}
+.formule h4 {
+    font-size: 20px;
+    margin-top: -20px;
+}
+
+ul{
+    padding-top: 10px;
+}
+li {
+    padding-bottom: 10px;
+    list-style-type: none;
+}
+.formule-content ul li i {
+    margin-right: 10px;
+}
+.formule-signup {
+    
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 40px;
+    
+}
+
+.formule-btn {
+    color: #ff0000;
+    border-radius: 10px;
+    padding: 10px;
+    /* mon border-color: #000 ne prend pas je ne sais pas pourquoi voir avec Adeline */
+}
+
+.formule-btn:hover {
+
+    color: #fff;
+    background-color: #242424;
+    text-decoration: none;
+    font-size: 25px;
+    transition: 0.5s;
+    
+}
 
 
 /* -------------------------------------------------------------------------------ONGLET PROSHOP-------------------------------------------------------------------------------*/
-/* --------------------------------------------HEADER--------------------------------------------*/
-#hd-proshop {
 
-    background-image: url(../Images/headerproshop.jpg);
-    background-position: center;
-    background-size: cover;
-    
-    height: 50vh;
-}
-.head-txt {
-    display: block;
-    padding-top: 210px;
-}
-/* --------------------------------------------LESPRODUITS--------------------------------------------*/
-
-/* ---------------------------PROMO-------------------------------*/
-
-.promo-img {
-    background-image: url(../Images/promo1.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 50vh;
-    border-radius: 10px;
-    
-}
-.promo-descr {
-    
-    
-    border: 1px #ddd2d2 solid;
-    border-radius: 10px;
-    
-}
-
-.promo-cadre {
-    margin-bottom: 20px;
-}
-p {
-    font-size: 15px;
-    padding-left: 20px;
-}
-
-.btn-ps {
-    margin-top: 150px;
-    margin-left: 200px;
-    padding: 0 40px;
-    border: 0;
-    line-height: 2.5;
-    text-shadow: 1px 1px 1px #242424;
-    color: #fff;
-    background-color: rgb(177, 2, 2);
-    border-radius: 10px;
-    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
-                inset -2px -2px 3px rgba(0, 0, 0, .6);
-    
-}
-
-.btn-ps:hover {
-    background-color: rgba(260, 0, 0,0.6);
-}
-
-.btn-ps a {
-    text-decoration: none;
-    color: #fff;
-}
-
-#shop {
-    margin-bottom: 40px;
-}
-
-/* ---------------------------EQUIPEMENT ET AUTRES-------------------------------*/
-.shopp2 {
-    border-top: 5px solid #000;
-}
-
-ul li{
-    list-style-type: none;
-}
-
-.img-ping img {
-
-    width: 100%;
-    margin-top: 40px;
-    border-radius: 10px;
-    border: 2px #ddd2d2 solid;
-    border-radius: 10px;
-    margin-bottom: 20px;
-    
-}
-
-.img-club-drive img {
-    width: 100%;
-    margin-top: 40px;
-    border-radius: 10px;
-    border: 2px #ddd2d2 solid;
-    border-radius: 10px;
-    margin-bottom: 20px;
-}
-
-.img-club-sw img {
-    width: 100%;
-    margin-top: 40px;
-    border-radius: 10px;
-    border: 2px #ddd2d2 solid;
-    border-radius: 10px;
-    margin-bottom: 20px;
-}
-
-.img-club-sac img {
-    width: 100%;
-    margin-top: 40px;
-    border-radius: 10px;
-    border: 2px #ddd2d2 solid;
-    border-radius: 10px;
-    margin-bottom: 20px;
-}
-
-.btn-ps1 {
-    margin-top: 10px;
-    margin-left: 50px;
-    margin-bottom: 10px;
-    padding: 0 40px;
-    border: 0;
-    line-height: 2.5;
-    text-shadow: 1px 1px 1px #242424;
-    color: #fff;
-    background-color: rgb(177, 2, 2);
-    border-radius: 10px;
-    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
-                inset -2px -2px 3px rgba(0, 0, 0, .6);
-    
-}
-
-.btn-ps1:hover {
-    background-color: rgba(260, 0, 0,0.6);
-}
-
-.btn-ps1 a {
-    text-decoration: none;
-    color: #fff;
-}
-
-.border {
-    border: 2px #ddd2d2 solid;
-    border-radius: 10px;
-    margin-bottom: 20px;
-}
-
+/*sur sa propre feuille, je n'arrive pas à le switch sans tout casser*/
 
 /* -------------------------------------------------------------------------------ONGLET CONTACT-------------------------------------------------------------------------------*/
 
@@ -401,7 +361,9 @@ ul li{
 }
 
 #formulaire-contact {
-    margin-bottom: 20px;
+    
+    margin: 20px 10px;
+    padding: 40px 10px;
 }
 
 #title-contact-message {
@@ -409,12 +371,27 @@ ul li{
     
 }
 
+
 .contact-form {
     margin-top:40px;
+    
 }
 
 .map {
-    margin-top:40px
+
+    position: relative;
+    padding-bottom: 75%;
+    height: 0;
+    overflow: hidden;
+
+}
+
+.map iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
 .contact-message {

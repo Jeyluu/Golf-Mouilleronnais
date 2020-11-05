@@ -62,7 +62,9 @@ h3:after {
     
 }
 h4 {
+    
     font-size: 15px ;
+    
 }
 
 
@@ -70,11 +72,12 @@ h4 {
 p {
     color: #242424;
     font-family: 'Raleway', sans-serif ;
+    text-align: center;
 }
 
 
 /* --------------------------------------------HEADER--------------------------------------------*/
-header {
+#hd-proshop {
 
     background-image: url(../Images/headerproshop.jpg);
     background-position: center;
@@ -82,7 +85,7 @@ header {
     
     height: 50vh;
 }
-.head-txt {
+.head-txt-ps {
     display: block;
     padding-top: 210px;
 }
@@ -93,7 +96,8 @@ header {
 .navbar {
     font-size: 20px;
     background-color: rgba(102,51,0, 0.7) !important;
-    
+    font-family: 'Raleway', sans-serif ;
+    font-size: 25px;
 }
 .navbar a {
     color: rgb(0, 0, 0) !important;
@@ -125,14 +129,15 @@ header {
     background-image: url(../Images/promo1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 50vh;
+    height:50vh;
     border-radius: 10px;
+    margin: 0 5px;
     
 }
 .promo-descr {
     
-    
-    border: 1px #ddd2d2 solid;
+    display: block;
+    margin-left: -10px;
     border-radius: 10px;
     
 }
@@ -140,14 +145,19 @@ header {
 .promo-cadre {
     margin-bottom: 20px;
 }
-p {
+
+.promo-descr h4 {
+    margin: auto 20%;
+}
+
+.promo-descr p {
     font-size: 15px;
-    padding-left: 20px;
+    padding: 0 20px;
 }
 
 .btn-ps {
-    margin-top: 150px;
-    margin-left: 200px;
+    margin-top: 50px;
+    margin-left: 36%;
     padding: 0 40px;
     border: 0;
     line-height: 2.5;
@@ -178,8 +188,11 @@ p {
     border-top: 5px solid #000;
 }
 
-ul li{
+
+
+.list-carac-ps li {
     list-style-type: none;
+
 }
 
 .img-ping img {
@@ -250,9 +263,9 @@ ul li{
     border-radius: 10px;
     margin-bottom: 20px;
 }
-/* --------------------------------------------FOOTER--------------------------------------------*/
+/* --------------------------------------------FOOTERPROSHOP--------------------------------------------*/
 
-footer {
+#ft-proshop {
     margin-top: 20px;
     height: 220px;
     background-image: url(../Images/footer.jpg);
