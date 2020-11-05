@@ -37,12 +37,22 @@ html {
     background-color: #fff;
 }
 
-h1, h2, h3, h4{
+h1 {
+    color: rgb(0, 0, 0);
+    font-family: 'Cinzel', serif;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 20px;
+    text-shadow:rgb(255, 255, 255) 1px 3px;
+}
+
+h2, h3, h4{
     color:#000;
     font-family: 'Cinzel', serif;
     text-transform: uppercase;
     text-align: center;
     padding: 20px;
+    
     
 }
 
@@ -93,11 +103,11 @@ p {
 }
 
 .main-title p {
-    margin: -5%;
+    margin: -10%;
 }
 
 .main-title a {
-    margin-top: 10%;
+    margin-top: 15%;
 }
 .main-title img {
     height: 90px;
@@ -142,23 +152,23 @@ p {
     font-size: 20px;
     border-radius: 10px;
     border-color: #000;
-    
+    margin-top: 100px;
     
 }
 .btn:hover {
     background-color: rgba(0,0,0,0.4);
     border: rgba(0,0,0,0.4);
-    font-size: 25px;
-    transition: 0.2s;
+    font-size: 30px;
+    transition: 0.9s;
+    color: rgb(255, 255, 255);
+    
+    
 }
 
 .btn-header {
 
-    
     font-family: 'Cinzel', serif;
-    margin-top: 250px;
-    
-    
+
     }
 
     .btn-general {
@@ -224,13 +234,13 @@ footer {
                                             /* --------------------------------------------HEADER--------------------------------------------*/
 #hd-qsn {
     background-image: url(../Images/headerp2.jpg);
-    height: 50vh;
+    height: 60vh;
     background-position: center;
     
 }
 
 .pres-head {
-    margin-top: 10%;
+    margin-top: 15%;
 }
                                             /* --------------------------------------------PRESENTATION--------------------------------------------*/
 
@@ -253,7 +263,7 @@ footer {
                                             /* --------------------------------------------HEADER--------------------------------------------*/
 #hd-tarif {
     background-image: url(../Images/offres.jpg);
-    height: 50vh;
+    height: 60vh;
     background-size: cover;
     background-position: center;
     
@@ -352,12 +362,13 @@ li {
     background-image: url(../Images/contact.jpg);
     background-size: cover;
     background-position: bottom;
-    height: 50vh;
+    height: 60vh;
     
 }
 
 .head-contact {
-    margin-top: 160px ;
+    margin-top: 70px ;
+    
 }
 
 #formulaire-contact {
