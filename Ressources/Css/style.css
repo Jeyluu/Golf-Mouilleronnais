@@ -219,6 +219,7 @@ p {
 
 
 footer {
+    
     margin-top: 20px;
     height: 220px;
     background-image: url(../Images/footer.jpg);
@@ -231,7 +232,9 @@ footer {
 }
 
 .icons {
+    
     text-align: center;
+    width: 100%;
 }
 .icons img {
     
