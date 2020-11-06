@@ -26,8 +26,20 @@
 
 1.=GLOBAL
 2.=HEADER
-3.=ACTUALITÉES
-4.=FOOTER
+3.=NAVBAR
+4.=BUTTON
+5.=ACTUALITÉES
+6.=FOOTER
+
+7.=QUISOMMESNOUS
+8.=HEADER
+9.=PRESENTATION
+
+10.=TARIFS
+11.=GREENFEES
+12.=FORMULES
+
+13.=CONTACT
 
 */
 
@@ -218,9 +230,14 @@ footer {
     
 }
 
+.icons {
+    text-align: center;
+}
 .icons img {
+    
+    
     width: 50px;
-    margin-left: 20%;
+    margin-left:5%;
     display: inline-block;
 }
 

@@ -285,9 +285,12 @@ p {
     
 }
 
+.icons {
+    text-align: center;
+}
 .icons img {
     width: 50px;
-    margin-left: 20%;
+    margin-left: 5%;
     display: inline-block;
 }
 
